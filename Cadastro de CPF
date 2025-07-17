@@ -1,0 +1,18 @@
+print("Olá, bem vindo ao sistema de cadastro da academia Start Strong")
+nome_usuário = input("Digite seu Nome:")
+cpf_usuário = input(" Digite seu Cpf:")
+idade_usuario = input("Digite sua Idade:")
+peso_usuário = input("Digite seu Peso em kg:")
+Altura_usuário = input("Digite sua altura em metros:")
+objetivo_treino = input("Digite seu objetivo de treino:")
+confirmação_usuário =input("Os Dados acima esão corretos?:")
+
+
+print("Confirmação de Dados:")
+print("Seu Nome:",nome_usuário)
+print("Seu CPF:",cpf_usuário)
+print("Sua Idade",idade_usuario)
+print("Seu Peso:",peso_usuário,"Kg")
+print("Sua Altura",Altura_usuário,"M")
+print("Seu Objetivo de Treino",objetivo_treino)
+print("Os Dados acima estão corretos?:",confirmação_usuário)
